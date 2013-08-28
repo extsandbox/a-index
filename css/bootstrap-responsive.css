@@ -18,6 +18,15 @@
   line-height: 0;
   content: "";
 }
+    margin: 0 15px;
+    background-color: transparent;
+    border: none;
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
 
 .clearfix:after {
   clear: both;
@@ -38,9 +47,16 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+    position: static;
+    top: auto;
+    left: auto;
+    display: none;
+    float: none;
+    max-width: none;
+    padding: 0;
 }
 
-@-ms-viewport {
+@-ms- {
   width: device-width;
 }
 
@@ -632,30 +648,6 @@
   .row-fluid .span1 {
     width: 5.801104972375691%;
     *width: 5.747913483013988%;
-  }
-  .row-fluid .offset12 {
-    margin-left: 105.52486187845304%;
-    *margin-left: 105.41847889972962%;
-  }
-  .row-fluid .offset12:first-child {
-    margin-left: 102.76243093922652%;
-    *margin-left: 102.6560479605031%;
-  }
-  .row-fluid .offset11 {
-    margin-left: 96.96132596685082%;
-    *margin-left: 96.8549429881274%;
-  }
-  .row-fluid .offset11:first-child {
-    margin-left: 94.1988950276243%;
-    *margin-left: 94.09251204890089%;
-  }
-  .row-fluid .offset10 {
-    margin-left: 88.39779005524862%;
-    *margin-left: 88.2914070765252%;
-  }
-  .row-fluid .offset10:first-child {
-    margin-left: 85.6353591160221%;
-    *margin-left: 85.52897613729868%;
   }
   .row-fluid .offset9 {
     margin-left: 79.8342541436464%;
