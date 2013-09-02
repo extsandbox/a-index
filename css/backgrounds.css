@@ -1,5 +1,5 @@
 #backgrounds{
-	margin-top:70px;
+	margin-top:10px;
 }
 #backgrounds .row{
 	margin-bottom: 30px;
@@ -7,18 +7,18 @@
 #backgrounds .photo{
 	position: relative;
 }
-#backgrounds .photo .circle{
+#backgrounds .photo .square{
 	position: absolute;
 	text-align: center;
-	border-radius: 100%;
-	background: rgba(0,0,0,0.5);
+	border-radius: 90%;
+	background: rgba(2,0,0,0.5);
 	height: 82px;
 	width: 82px;
 	left: 41%;
 	top: 25%;
 }
 #backgrounds .photo .circle span{
-	font-size: 18px;
+	font-size: 28px;
 	font-style: italic;
 	color: #fff;
 	margin-top: 29px;
@@ -35,7 +35,7 @@
 @media (min-width: 1200px) {
 
 }
-@media (min-width: 980px) {
+@media (min-width: 944px) {
 
 }
 /* Portrait tablet to landscape and desktop */
